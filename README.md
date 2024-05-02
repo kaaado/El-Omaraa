@@ -26,7 +26,10 @@ To get a local copy of the project up and running, follow these steps:
    ```bash
    git clone https://github.com/yacineyoyoker/El-Omaraa-Clinic.git
 2. Navigate to the project directory:
-   cd El-Omaraa-Clinic
+   
+    ```bash
+    cd El-Omaraa-Clinic
+
 3. Open the project in your preferred code editor and start exploring!
    
    ## Contributing
