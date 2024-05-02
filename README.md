@@ -15,7 +15,7 @@ El Omaraa Clinic is a private hospital situated in Mascara, Algeria. It provides
 
 ## Author
 
-- **Yacine Kermame** - Frontend Web Developer specializing in React.js - [GitHub](https://github.com/yacineyoyoker) - [Email](mailto:yacineyoyoker@gmail.com) - [Facebook](https://facebook.com/yacine.kermam.7)
+- **Yacine Kermame** - Frontend Web Developer specializing in React.js - [GitHub](https://github.com/kaaado) - [Email](mailto:yacineyoyoker@gmail.com) - [Facebook](https://facebook.com/yacine.kermam.7)
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ To get a local copy of the project up and running, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yacineyoyoker/El-Omaraa-Clinic.git
+   git clone https://github.com/kaaado/El-Omaraa-Clinic.git
 2. Navigate to the project directory:
    
     ```bash
