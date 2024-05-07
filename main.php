@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html> 
 <html lang="en"> 
 <head> 
@@ -44,7 +45,6 @@ margin-bottom:34px;
         </ul> 
         <!-- Fermez la balise ul ici --> 
      <?php
-        session_start();
         if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
             echo '<a href="dist/logout.php" class="number"><p>Logout</p></a>';
         } else {
