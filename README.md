@@ -29,8 +29,9 @@ To get a local copy of the project up and running, follow these steps:
    
     ```bash
     cd El-Omaraa-Clinic
+3. Change name of project to 'Web' !important .
+4. Open the project in your preferred code editor and start exploring!
 
-3. Open the project in your preferred code editor and start exploring!
    
    ## Contributing
 
