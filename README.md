@@ -28,10 +28,10 @@ To get a local copy of the project up and running, follow these steps:
 2. Navigate to the project directory:
    
     ```bash
-    cd El-Omaraa-main
+    cd El-Omaraa
 3. Change name of project to 'Web' !important .
       ```bash
-      mv El-Omaraa-main Web
+      mv El-Omaraa Web
 4. Open the project in your preferred code editor and start exploring!
 
    
