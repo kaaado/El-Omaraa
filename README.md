@@ -24,12 +24,14 @@ To get a local copy of the project up and running, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/kaaado/El-Omaraa-Clinic.git
+   git clone https://github.com/kaaado/El-Omaraa.git
 2. Navigate to the project directory:
    
     ```bash
-    cd El-Omaraa-Clinic
+    cd El-Omaraa-main
 3. Change name of project to 'Web' !important .
+      ```bash
+      mv El-Omaraa-main Web
 4. Open the project in your preferred code editor and start exploring!
 
    
