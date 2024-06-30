@@ -345,22 +345,11 @@ ALTER TABLE `specialty`
 --
 
 --
--- Constraints for table `doctor`
---
-ALTER TABLE `doctor`
-  DROP FOREIGN KEY `doctor_ibfk_1`,
-  DROP FOREIGN KEY `fk_specialty_id`;
 
 ALTER TABLE `doctor`
   ADD CONSTRAINT `doctor_ibfk_1` FOREIGN KEY (`specialty_id`) REFERENCES `specialty` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `fk_specialty_id` FOREIGN KEY (`specialty_id`) REFERENCES `specialty` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
---
--- Constraints for table `reservation`
---
-ALTER TABLE `reservation`
-  DROP FOREIGN KEY `fk_patient_id`,
-  DROP FOREIGN KEY `reservation_ibfk_1`;
 
 ALTER TABLE `reservation`
   ADD CONSTRAINT `fk_patient_id` FOREIGN KEY (`patient_id`) REFERENCES `patients` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
@@ -371,3 +360,4 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
