@@ -32,7 +32,7 @@ To get a local copy of the project up and running, follow these steps:
 3. Navigate to the project directory:
    
     ```bash
-    cd El-Omaraa
+    cd Web
 
 4. Open the project in your preferred code editor and start exploring!
 
