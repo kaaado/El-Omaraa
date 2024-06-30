@@ -25,13 +25,15 @@ To get a local copy of the project up and running, follow these steps:
 
    ```bash
    git clone https://github.com/kaaado/El-Omaraa.git
-2. Navigate to the project directory:
+2. Change name of project to 'Web' !important .
+      ```bash
+      mv El-Omaraa Web
+      
+3. Navigate to the project directory:
    
     ```bash
     cd El-Omaraa
-3. Change name of project to 'Web' !important .
-      ```bash
-      mv El-Omaraa Web
+
 4. Open the project in your preferred code editor and start exploring!
 
    
